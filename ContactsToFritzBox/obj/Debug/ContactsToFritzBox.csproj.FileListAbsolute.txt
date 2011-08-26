@@ -7,3 +7,12 @@ D:\Dev\VS\ContactsToFritzBox\ContactsToFritzBox\obj\Debug\ResGen.read.1.tlog
 D:\Dev\VS\ContactsToFritzBox\ContactsToFritzBox\obj\Debug\ResGen.write.1.tlog
 D:\Dev\VS\ContactsToFritzBox\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.exe
 D:\Dev\VS\ContactsToFritzBox\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.pdb
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.exe
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.pdb
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\bin\Debug\ContactsToFritzBox.exe
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\bin\Debug\ContactsToFritzBox.pdb
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.Form1.resources
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.Properties.Resources.resources
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ResGen.read.1.tlog
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ResGen.write.1.tlog

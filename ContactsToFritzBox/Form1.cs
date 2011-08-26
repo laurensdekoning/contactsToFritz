@@ -20,6 +20,9 @@ namespace ContactsToFritzBox
             InitializeComponent();
         }
 
+        /// <summary>
+        /// About box, not really interesting
+        /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This simple application was written bij Laurens de Koning and is 100% freeware.", "About ContactsToFritzBox", MessageBoxButtons.OK);

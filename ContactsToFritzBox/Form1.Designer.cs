@@ -57,7 +57,8 @@
             this.aboutToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(631, 24);
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip.Size = new System.Drawing.Size(841, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -66,20 +67,20 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
             this.quitToolStripMenuItem.Text = "&Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -91,9 +92,11 @@
             this.gbInputFile.Controls.Add(this.btnSelectInputFile);
             this.gbInputFile.Controls.Add(this.textBox1);
             this.gbInputFile.Controls.Add(this.lblSelectInputFile);
-            this.gbInputFile.Location = new System.Drawing.Point(4, 27);
+            this.gbInputFile.Location = new System.Drawing.Point(5, 33);
+            this.gbInputFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbInputFile.Name = "gbInputFile";
-            this.gbInputFile.Size = new System.Drawing.Size(627, 117);
+            this.gbInputFile.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbInputFile.Size = new System.Drawing.Size(836, 144);
             this.gbInputFile.TabIndex = 1;
             this.gbInputFile.TabStop = false;
             this.gbInputFile.Text = "Source";
@@ -101,9 +104,10 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(166, 24);
+            this.radioButton2.Location = new System.Drawing.Point(221, 30);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(62, 17);
+            this.radioButton2.Size = new System.Drawing.Size(78, 21);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.Text = "Outlook";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -112,9 +116,10 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(107, 24);
+            this.radioButton1.Location = new System.Drawing.Point(143, 30);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(59, 17);
+            this.radioButton1.Size = new System.Drawing.Size(75, 21);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Google";
@@ -124,17 +129,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 24);
+            this.label2.Location = new System.Drawing.Point(8, 30);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 13);
+            this.label2.Size = new System.Drawing.Size(114, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Set input type:";
             // 
             // btnSelectInputFile
             // 
-            this.btnSelectInputFile.Location = new System.Drawing.Point(546, 64);
+            this.btnSelectInputFile.Location = new System.Drawing.Point(728, 79);
+            this.btnSelectInputFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSelectInputFile.Name = "btnSelectInputFile";
-            this.btnSelectInputFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectInputFile.Size = new System.Drawing.Size(100, 28);
             this.btnSelectInputFile.TabIndex = 2;
             this.btnSelectInputFile.Text = "&Browse";
             this.btnSelectInputFile.UseVisualStyleBackColor = true;
@@ -142,18 +149,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(9, 66);
+            this.textBox1.Location = new System.Drawing.Point(12, 81);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(521, 20);
+            this.textBox1.Size = new System.Drawing.Size(693, 22);
             this.textBox1.TabIndex = 1;
             // 
             // lblSelectInputFile
             // 
             this.lblSelectInputFile.AutoSize = true;
             this.lblSelectInputFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSelectInputFile.Location = new System.Drawing.Point(6, 50);
+            this.lblSelectInputFile.Location = new System.Drawing.Point(8, 62);
+            this.lblSelectInputFile.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSelectInputFile.Name = "lblSelectInputFile";
-            this.lblSelectInputFile.Size = new System.Drawing.Size(100, 13);
+            this.lblSelectInputFile.Size = new System.Drawing.Size(126, 17);
             this.lblSelectInputFile.TabIndex = 0;
             this.lblSelectInputFile.Text = "Select input file:";
             // 
@@ -166,9 +175,11 @@
             this.gbDestinationFile.Controls.Add(this.button3);
             this.gbDestinationFile.Controls.Add(this.btnSelectOutputFile);
             this.gbDestinationFile.Controls.Add(this.textBox2);
-            this.gbDestinationFile.Location = new System.Drawing.Point(0, 150);
+            this.gbDestinationFile.Location = new System.Drawing.Point(0, 185);
+            this.gbDestinationFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbDestinationFile.Name = "gbDestinationFile";
-            this.gbDestinationFile.Size = new System.Drawing.Size(631, 136);
+            this.gbDestinationFile.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbDestinationFile.Size = new System.Drawing.Size(841, 167);
             this.gbDestinationFile.TabIndex = 2;
             this.gbDestinationFile.TabStop = false;
             this.gbDestinationFile.Text = "Destination";
@@ -176,9 +187,10 @@
             // button3
             // 
             this.button3.Image = global::ContactsToFritzBox.Properties.Resources.export_icon1;
-            this.button3.Location = new System.Drawing.Point(7, 66);
+            this.button3.Location = new System.Drawing.Point(9, 81);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(618, 64);
+            this.button3.Size = new System.Drawing.Size(824, 79);
             this.button3.TabIndex = 5;
             this.button3.Text = "&Convert";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -187,9 +199,10 @@
             // 
             // btnSelectOutputFile
             // 
-            this.btnSelectOutputFile.Location = new System.Drawing.Point(550, 23);
+            this.btnSelectOutputFile.Location = new System.Drawing.Point(733, 28);
+            this.btnSelectOutputFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSelectOutputFile.Name = "btnSelectOutputFile";
-            this.btnSelectOutputFile.Size = new System.Drawing.Size(75, 23);
+            this.btnSelectOutputFile.Size = new System.Drawing.Size(100, 28);
             this.btnSelectOutputFile.TabIndex = 4;
             this.btnSelectOutputFile.Text = "B&rowse";
             this.btnSelectOutputFile.UseVisualStyleBackColor = true;
@@ -197,9 +210,10 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 26);
+            this.textBox2.Location = new System.Drawing.Point(17, 32);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(521, 20);
+            this.textBox2.Size = new System.Drawing.Size(693, 22);
             this.textBox2.TabIndex = 3;
             // 
             // dlgSaveOutputFile
@@ -208,14 +222,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 299);
+            this.ClientSize = new System.Drawing.Size(841, 368);
             this.Controls.Add(this.gbDestinationFile);
             this.Controls.Add(this.gbInputFile);
             this.Controls.Add(this.menuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "ContactsToFritzBox v0.1";
