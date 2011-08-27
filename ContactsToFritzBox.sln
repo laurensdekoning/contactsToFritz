@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsToFritzBox", "ContactsToFritzBox\ContactsToFritzBox.csproj", "{368B5BF4-5ABE-4DE3-9D39-531232F53798}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contactsToFritzBox", "ContactsToFritzBox\contactsToFritzBox.csproj", "{368B5BF4-5ABE-4DE3-9D39-531232F53798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

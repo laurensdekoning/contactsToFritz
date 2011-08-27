@@ -16,3 +16,4 @@ D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.Form1
 D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ContactsToFritzBox.Properties.Resources.resources
 D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ResGen.read.1.tlog
 D:\Dev\Git\contactsToFritz\ContactsToFritzBox\obj\Debug\ResGen.write.1.tlog
+D:\Dev\Git\contactsToFritz\ContactsToFritzBox\bin\Debug\ContactsToFritzBox.exe.config
