@@ -57,7 +57,8 @@ namespace contactsToFritz
 
         private void FileMenuExit_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show({ DynamicResource FileExitMenu }, "Test");
+
+            MessageBox.Show();
             Application.Current.Shutdown();
         }
 
