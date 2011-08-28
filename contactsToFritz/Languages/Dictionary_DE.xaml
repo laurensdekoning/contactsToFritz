@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Convert">Convert</system:String>
+    <system:String x:Key="BrowseButton">Suchen</system:String>
+
+    <system:String x:Key="FileMenu">Datei</system:String>
+    <system:String x:Key="FileMenuExit">Beenden</system:String>
+
+    <system:String x:Key="ToolsMenu">Einstellungen</system:String>
+    <system:String x:Key="ToolsMenuLanguage">Sprache</system:String>
+    <system:String x:Key="ToolsMenuLanguageEnglish">English</system:String>
+    <system:String x:Key="ToolsMenuLanguageDutch">Niederländisch</system:String>
+    <system:String x:Key="ToolsMenuLanguageGerman">Deutsch</system:String>
+</ResourceDictionary>

@@ -12,6 +12,7 @@
                 <MenuItem Header="{ DynamicResource ToolsMenuLanguage}">
                     <MenuItem Header="{ DynamicResource ToolsMenuLanguageEnglish}" Click="MenuItem_Click" />
                     <MenuItem Header="{ DynamicResource ToolsMenuLanguageDutch}" Click="MenuItem_Click_1" />
+                    <MenuItem Header="{ DynamicResource ToolsMenuLanguageGerman}" Click="MenuItem_Click_2" />
                 </MenuItem>
             </MenuItem>
         </Menu>

@@ -12,4 +12,5 @@
     <system:String x:Key="ToolsMenuLanguage">Language</system:String>
     <system:String x:Key="ToolsMenuLanguageEnglish">English</system:String>
     <system:String x:Key="ToolsMenuLanguageDutch">Dutch</system:String>
+    <system:String x:Key="ToolsMenuLanguageGerman">German</system:String>
 </ResourceDictionary>

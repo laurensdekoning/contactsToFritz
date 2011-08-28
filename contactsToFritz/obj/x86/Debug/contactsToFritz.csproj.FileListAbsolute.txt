@@ -1,6 +1,7 @@
 D:\Dev\Git\contactsToFritz\contactsToFritz\bin\Debug\contactsToFritz.exe
 D:\Dev\Git\contactsToFritz\contactsToFritz\bin\Debug\contactsToFritz.pdb
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\Languages\Dictionary_EN.baml
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\Languages\Dictionary_NL.baml
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\MainWindow.baml
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\MainWindow.g.cs
@@ -12,4 +13,4 @@ D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\GenerateResource.read.1
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\contactsToFritz.exe
 D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\contactsToFritz.pdb
-D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\Languages\Dictionary_EN.baml
+D:\Dev\Git\contactsToFritz\contactsToFritz\obj\x86\Debug\Languages\Dictionary_DE.baml

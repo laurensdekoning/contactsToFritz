@@ -71,6 +71,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Settings.cs" />
+    <Page Include="Languages\Dictionary_DE.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Languages\Dictionary_EN.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

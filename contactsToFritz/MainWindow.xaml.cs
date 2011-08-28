@@ -40,6 +40,8 @@ namespace contactsToFritz
                     break;
                 case "NL": formDict.Source = new Uri("..\\Languages\\Dictionary_NL.xaml", UriKind.Relative);
                     break;
+                case "DE": formDict.Source = new Uri("..\\Languages\\Dictionary_DE.xaml", UriKind.Relative);
+                    break;
                 default: formDict.Source = new Uri("..\\Languages\\Dictionary_NL.xaml", UriKind.Relative);
                     break;
             }
@@ -58,8 +60,13 @@ namespace contactsToFritz
         private void FileMenuExit_Click(object sender, RoutedEventArgs e)
         {
 
-            MessageBox.Show();
+            // MessageBox.Show();
             Application.Current.Shutdown();
+        }
+
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            setDisplayLanguage("DE");
         }
 
     }

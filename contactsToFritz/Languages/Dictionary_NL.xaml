@@ -12,4 +12,5 @@
     <system:String x:Key="ToolsMenuLanguage">Taal</system:String>
     <system:String x:Key="ToolsMenuLanguageEnglish">Engels</system:String>
     <system:String x:Key="ToolsMenuLanguageDutch">Nederlands</system:String>
+    <system:String x:Key="ToolsMenuLanguageGerman">Duits</system:String>
 </ResourceDictionary>
