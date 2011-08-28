@@ -3,6 +3,10 @@
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
         
     <system:String x:Key="Convert">Converteren</system:String>
-    <system:String x:Key="Browse">Verkennen</system:String>
-        
+    <system:String x:Key="BrowseButton">Verkennen</system:String>
+
+    <system:String x:Key="ToolsMenu">Instellingen</system:String>
+    <system:String x:Key="ToolsMenuLanguage">Taal</system:String>
+    <system:String x:Key="ToolsMenuLanguageEnglish">Engels</system:String>
+    <system:String x:Key="ToolsMenuLanguageDutch">Nederlands</system:String>
 </ResourceDictionary>

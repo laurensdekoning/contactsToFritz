@@ -1,0 +1,13 @@
+﻿    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+        
+    <system:String x:Key="Convert">Convert</system:String>
+    <system:String x:Key="BrowseButton">Browse</system:String>
+        
+        
+    <system:String x:Key="ToolsMenu">Settings</system:String>
+    <system:String x:Key="ToolsMenuLanguage">Language</system:String>
+    <system:String x:Key="ToolsMenuLanguageEnglish">English</system:String>
+    <system:String x:Key="ToolsMenuLanguageDutch">Dutch</system:String>
+</ResourceDictionary>
