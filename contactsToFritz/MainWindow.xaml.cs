@@ -28,8 +28,8 @@ namespace contactsToFritz
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            formDict.Source = new Uri("..\\Languages\\Dictionary_EN.xaml", UriKind.Relative);
             this.Resources.MergedDictionaries.Add(formDict);
+            setDisplayLanguage("");
         }
 
         public void setDisplayLanguage(string displayLang)
@@ -40,7 +40,7 @@ namespace contactsToFritz
                     break;
                 case "NL": formDict.Source = new Uri("..\\Languages\\Dictionary_NL.xaml", UriKind.Relative);
                     break;
-                default: formDict.Source = new Uri("..\\Languages\\Dictionary_EN.xaml", UriKind.Relative);
+                default: formDict.Source = new Uri("..\\Languages\\Dictionary_NL.xaml", UriKind.Relative);
                     break;
             }
         }
@@ -54,5 +54,12 @@ namespace contactsToFritz
         {
             setDisplayLanguage("NL");
         }
+
+        private void FileMenuExit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show({ DynamicResource FileExitMenu }, "Test");
+            Application.Current.Shutdown();
+        }
+
     }
 }

@@ -5,6 +5,9 @@
     <Grid>
         <Button Name="btnBrowse" Content="{DynamicResource BrowseButton}" Height="23" HorizontalAlignment="Left" Margin="399,55,0,0" VerticalAlignment="Top" Width="75" />
         <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="530">
+            <MenuItem Header="{DynamicResource FileMenu}"> 
+                <MenuItem Name="FileMenuExit" Header="{DynamicResource FileMenuExit}" Click="FileMenuExit_Click" />
+            </MenuItem>
             <MenuItem Header="{DynamicResource ToolsMenu}">
                 <MenuItem Header="{ DynamicResource ToolsMenuLanguage}">
                     <MenuItem Header="{ DynamicResource ToolsMenuLanguageEnglish}" Click="MenuItem_Click" />

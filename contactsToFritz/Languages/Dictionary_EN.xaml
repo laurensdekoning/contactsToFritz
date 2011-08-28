@@ -4,8 +4,10 @@
         
     <system:String x:Key="Convert">Convert</system:String>
     <system:String x:Key="BrowseButton">Browse</system:String>
-        
-        
+
+    <system:String x:Key="FileMenu">File</system:String>
+    <system:String x:Key="FileMenuExit">Exit</system:String>
+
     <system:String x:Key="ToolsMenu">Settings</system:String>
     <system:String x:Key="ToolsMenuLanguage">Language</system:String>
     <system:String x:Key="ToolsMenuLanguageEnglish">English</system:String>

@@ -5,6 +5,9 @@
     <system:String x:Key="Convert">Converteren</system:String>
     <system:String x:Key="BrowseButton">Verkennen</system:String>
 
+    <system:String x:Key="FileMenu">Bestand</system:String>
+    <system:String x:Key="FileMenuExit">Afsluiten</system:String>
+
     <system:String x:Key="ToolsMenu">Instellingen</system:String>
     <system:String x:Key="ToolsMenuLanguage">Taal</system:String>
     <system:String x:Key="ToolsMenuLanguageEnglish">Engels</system:String>
