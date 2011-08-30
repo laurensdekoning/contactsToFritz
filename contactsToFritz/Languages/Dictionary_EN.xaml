@@ -5,6 +5,10 @@
     <system:String x:Key="Convert">Convert</system:String>
     <system:String x:Key="BrowseButton">Browse</system:String>
 
+    <system:String x:Key="SourceLabel">Source</system:String>
+    <system:String x:Key="TargetLabel">Destination</system:String>
+
+
     <system:String x:Key="FileMenu">File</system:String>
     <system:String x:Key="FileMenuExit">Exit</system:String>
 

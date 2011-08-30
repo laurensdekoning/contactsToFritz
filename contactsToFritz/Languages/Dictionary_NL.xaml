@@ -4,6 +4,9 @@
 
     <system:String x:Key="Convert">Converteren</system:String>
     <system:String x:Key="BrowseButton">Verkennen</system:String>
+    
+    <system:String x:Key="SourceLabel">Bron</system:String>
+    <system:String x:Key="TargetLabel">Bestemming</system:String>
 
     <system:String x:Key="FileMenu">Bestand</system:String>
     <system:String x:Key="FileMenuExit">Afsluiten</system:String>

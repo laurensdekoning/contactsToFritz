@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contactsToFritz", "contactsToFritz.csproj", "{20F05252-03BF-4AD7-BD5D-80CA8AE681B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oplossingsitems", "Oplossingsitems", "{242FD97C-D84D-4BAC-BD9A-5FE7D460173B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86

@@ -1,10 +1,11 @@
 ﻿<Window x:Class="contactsToFritz.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="contactsToFritz" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="323" Width="552" Loaded="Window_Loaded">
+        Title="contactsToFritz" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="214" Width="527" Loaded="Window_Loaded" Background="WhiteSmoke">
     <Grid>
         <Button Name="btnBrowse" Content="{DynamicResource BrowseButton}" Height="23" HorizontalAlignment="Left" Margin="399,55,0,0" VerticalAlignment="Top" Width="75" />
-        <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="530">
+        <Button Content="{DynamicResource BrowseButton}" Height="23" HorizontalAlignment="Left" Margin="399,113,0,0" Name="button1" VerticalAlignment="Top" Width="75" />
+        <Menu Height="22" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="505" Background="#FFEDEDED">
             <MenuItem Header="{DynamicResource FileMenu}"> 
                 <MenuItem Name="FileMenuExit" Header="{DynamicResource FileMenuExit}" Click="FileMenuExit_Click" />
             </MenuItem>
@@ -16,5 +17,9 @@
                 </MenuItem>
             </MenuItem>
         </Menu>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="129,55,0,0" Name="textBox1" VerticalAlignment="Top" Width="232" />
+        <Label Content="{DynamicResource SourceLabel}" Height="32" HorizontalAlignment="Left" Margin="28,55,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="129,113,0,0" Name="textBox2" VerticalAlignment="Top" Width="232" />
+        <Label Content="{DynamicResource TargetLabel}" Height="32" HorizontalAlignment="Left" Margin="28,113,0,0" Name="label2" VerticalAlignment="Top" />
     </Grid>
 </Window>
