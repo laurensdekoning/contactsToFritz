@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace contactsToFritz
 {
@@ -24,6 +25,7 @@ namespace contactsToFritz
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -67,6 +69,18 @@ namespace contactsToFritz
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             setDisplayLanguage("DE");
+        }
+
+        private void btnBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog sourceFileDialog = new OpenFileDialog();
+
+            sourceFileDialog.ShowDialog();
+
+            
+            if ((string fileSource = sourceFileDialog.FileName.Length).Length > 0) {
+                textBox1.Text = fileSource;
+            }
         }
 
     }
